@@ -1,0 +1,25 @@
+{
+  "manifest": 1,
+  "extension": {
+    "id": "wxl-combo-points",
+    "version": "1.0.0",
+    "abi": "1.1",
+    "entry": "wxl-combo-points.dll",
+    "assets": [],
+    "requires": {},
+    "conflicts": [],
+    "hooks": []
+  },
+  "deploy": {
+    "mode": "release",
+    "match": "*.dll"
+  },
+  "listing": {
+    "title": "Universal Combo Points",
+    "tagline": "Enables the stock WotLK 3.3.5a combo-point path for every class.",
+    "description": "store/description.md",
+    "categories": ["gameplay", "client-patch"]
+  },
+  "license": "GPL-3.0-or-later",
+  "signature": null
+}
